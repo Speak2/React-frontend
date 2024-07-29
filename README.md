@@ -26,7 +26,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn
+
   ```sh
   npm install npm@latest -g
   ```
@@ -34,8 +36,9 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 1. Clone the repo
+
    ```sh
-   git clone https://github.com/willypark22/hotel-reservation-react.git
+   git clone https://github.com/Speak2/React-frontend.git
    ```
 2. Install dependencies
 
@@ -48,6 +51,34 @@ This is an example of how to list things you need to use the software and how to
    npm start
    ```
 
+## Project Structure
+
+The project structure is as follows:
+
+```
+React-frontend/
+├── node_modules/
+├── public/
+│   ├── assets
+|   |   ├── icon
+|   |   |   ├── place_offers
+|   |   |   └── ...
+|   |   └── images
+|   |       └── ...
+│   └── ...
+├── src/
+│   ├── components/
+│   │   └── ...
+│   ├── config/
+│   |   └── ...  
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+```
 
 
 <!-- USAGE EXAMPLES -->
@@ -69,10 +100,16 @@ Users can view images and descriptions of each room. To save time, all the image
 
 ### Features
 
-1. when api is fetching data from database there is a shimmer effect on the website
-2. the website is responsive in both mobile and desktop view
-3. Most of the information on the page is loaded from the database.
-4. there is a base url that needs to be configured in the configuration folder json file.
+ - when api is fetching data from database there is a shimmer effect on the website
+- the website is responsive in both mobile and desktop view
+- Most of the information on the page is loaded from the database.
+- there is a base url that needs to be configured in the configuration folder json file.
+- Display hotel details using React components.
+- Reuse components for better code maintainability.
+- Show a shimmer loader while data is loading.
+- Use a configuration JSON file for static values.
+- Serve the page through the `/hotel` route.
+- Show a 404 page for unknown slugs (optional).
 
 
 ### Desktop View
@@ -94,6 +131,19 @@ Users can view images and descriptions of each room. To save time, all the image
 * [w3 Schools](https://www.w3schools.com/)
 * [Claude AI](https://claude.ai/)
 * [ChatGpt](https://chatgpt.com/ )
+
+## Contributing
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are welcome.
+
+### Fork the repository
+##### Create your feature branch (git checkout -b feature/AmazingFeature)
+##### Commit your changes (git commit -m 'Add some AmazingFeature')
+##### Push to the branch (git push origin feature/AmazingFeature)
+##### Open a Pull Request
+## License
+##### This project is licensed under the MIT License - see the LICENSE file for details.
+
+##### By following these steps, you should have a beautifully styled README that is clear, comprehensive, and easy to follow.
 
 
 
