@@ -1,0 +1,8 @@
+{
+    "apiBaseUrl": "http://localhost:3000/api",
+    "imageTypes": {
+      "jpeg": "data:image/jpeg;base64,",
+      "png": "data:image/png;base64,"
+    },
+    "loadingDelay": 1000
+  }
